@@ -151,3 +151,73 @@ print(square(6)) """
 """ lst = [1, 2, 3, 4, 5, 6]
 count = sum(1 for x in lst if x % 2 == 0)
 print(count) """
+
+
+
+# Print square of a given number
+""" n = int(input())
+print(n * n) """
+
+
+# Print cube of a given number
+""" n = int(input())
+print(n ** 3) """
+
+
+# Check if number is positive, negative or zero
+""" n = int(input())
+if n > 0:
+    print("Positive")
+elif n < 0:
+    print("Negative")
+else:
+    print("Zero") """
+
+
+
+# Print numbers from 1 to n
+""" n = int(input())
+for i in range(1, n+1):
+    print(i) """
+
+
+
+# Find sum of first n natural numbers
+""" n = int(input())
+total = n * (n + 1) // 2
+print(total) """
+
+
+# Multiply all numbers in a list
+""" lst = [2, 3, 4]
+mul = 1
+for x in lst:
+    mul *= x
+print(mul) """
+
+
+
+# Count total digits in a number
+""" n = input()
+print(len(n)) """
+
+
+
+# Check if character is vowel or consonant
+""" ch = input().lower()
+if ch in "aeiou":
+    print("Vowel")
+else:
+    print("Consonant") """
+
+
+# Print multiplication table of a number
+""" n = int(input())
+for i in range(1, 11):
+    print(n, "*",i, "=", n*i) """
+
+
+# Convert Celsius to Fahrenheit
+""" c = float(input())
+f = (c * 9/5) + 32
+print(f) """

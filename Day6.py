@@ -120,3 +120,60 @@ for i in range(n):
         else:
             print(" ", end="")
     print() """
+
+
+# Find sum of digits of a number
+""" n = int(input())
+print(sum(int(d) for d in n)) """
+
+
+# Reverse a given number
+""" n = input()
+print(n[::-1]) """
+
+
+# Check if number is Armstrong
+""" n = input()
+power = len(n)
+total = sum(int(d)**power for d in n)
+print("Armstrong" if int(n)==total else "Not Armstrong") """
+
+
+# Count consonants in a string
+""" s = input().lower()
+v = "aeiou"
+count = sum(1 for ch in s if ch.isalpha() and ch not in v)
+print(count) """
+
+
+# Find second largest number in list
+""" lst = [10, 50, 20, 40]
+lst.sort()
+print(lst[-2]) """
+
+
+# Find missing number from 1 to n
+""" lst = [1, 2, 4, 5]
+n = 5
+print(n*(n+1)//2 - sum(lst)) """
+
+
+# Count total characters excluding spaces
+""" s = input()
+print(len(s.replace(" ", ""))) """
+
+
+# Check if two strings are anagram
+""" s1 = input()
+s2 = input()
+print(sorted(s1) == sorted(s2)) """
+
+
+# Convert binary to decimal
+""" b = input()
+print(int(b, 2)) """
+
+
+# Convert decimal to binary
+""" n = int(input())
+print(bin(n)[2:]) """
